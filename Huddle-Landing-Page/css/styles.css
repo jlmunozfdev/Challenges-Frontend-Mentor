@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --white: hsl(0, 0%, 100%);
+    --btn-color: hsl(270, 36%, 48%);
+    --typography-paragraph: 'Open Sans', sans-serif;
+    --typography-title: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* border: 1px solid red; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/img/bg-desktop.svg);
+    background-color: var(--violet);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+.main__comtainer {
+    display: flex;
+}
+
+.header__logo {
+    margin: 3rem 0 0 3.5rem;
+}
+
+.img__logo {
+    width: 250px;
+}
+
+.section__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img__mockups {
+    width: 580px;
+    height: 450px;
+    margin: 3rem 0 0 3.5rem;
+}
+
+.div__card {
+    display: flex;
+    flex-direction: column;
+    max-width: 680px;
+    
+}
+
+.card__title {
+    color: var(--white);
+    font-family: var(--typography-title);
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 6rem 4rem 0 4rem;
+}
+
+.card__paragraph {
+    color: var(--white);
+    font-family: var(--typography-paragraph);
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 2rem 8rem 0 4rem;
+}
+
+.btn__register {
+    background-color: var(--white);
+    color: var(--violet);
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    width: 250px;
+    margin: 2rem 8rem 0 4rem;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn__register:hover {
+    background-color: var(--soft-magenta);
+    color: white;
+    cursor: pointer;
+}
+
+.div__icons {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8rem;
+    padding-top: 4rem;
+   
+   
+}
+
+.icon__facebook {
+    
+    padding: 0 0.5rem 0 0.5rem;
+    width: 30px;
+    height: 30px;
+    
+}
+
+a {
+    color: var(--white);
+}
+
+.icon__facebook:hover {
+    color: var(--soft-magenta);
+    cursor: pointer;
+    
+}
+
+.icon__twitter {
+    padding: 0 0.5rem 0 0.5rem;
+    width: 30px;
+    height: 30px;
+}
+
+.icon__twitter:hover {
+    color: var(--soft-magenta);
+    cursor: pointer;
+}
+
+.icon__instagram {
+    padding: 0 0.5rem 0 0.5rem;
+    width: 30px;
+    height: 30px;
+}
+
+.icon__instagram:hover {
+    color: var(--soft-magenta);
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 980px) {
+    body {
+        background-image: url(../assets/img/bg-mobile.svg);
+    }
+
+    .header__logo {
+        margin: 2rem 0 0 3.5rem;
+    }
+
+    .img__logo{
+        width: 200px;
+    }
+
+    .section__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img__mockups {
+        width: 82%;
+        height: 82%;
+        padding-top: 4rem;
+        margin: 0 auto;
+    }
+
+    .card__title {
+        font-size: 1.5rem;
+        padding: 4.5rem 2rem 0 2rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .card__paragraph {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1rem;
+        padding: 2rem 3rem;
+    }
+
+    .btn__register {
+        font-size: 0.8rem;
+        padding: 1rem;
+        width: 220px;
+        margin: 0 auto;
+    }
+
+    .div__icons {
+        display: flex;
+        justify-content: center;
+        padding: 4rem 0 2.5rem 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

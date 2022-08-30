@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+:root {
+    --very-dark-blue-main: hsl(233, 47%, 7%);
+    --dark-desaturated-blue-card: hsl(244, 38%, 16%);
+    --soft-violet-accent: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-info: hsla(0, 0%, 100%, 0.6);
+
+    --typography: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--very-dark-blue-main);
+    font-family: var(--typography);
+    font-size: 15px;
+    min-height: 100vh;
+}
+
+main {
+    width: 85%;
+}
+
+.section__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-desaturated-blue-card);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.div__card__image {
+    position: relative;
+    background-image: url(../assets/img/image-header-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 240px;
+}
+
+
+picture {
+    position: absolute;
+    background-color: var(--soft-violet-accent);
+    filter: opacity(0.4) drop-shadow(0 0 0 var(--soft-violet-accent));
+    width: 100%;
+    height: 240px;
+}
+
+.div__card__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title {
+    color: var(--white);
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+
+}
+
+span {
+    color: var(--soft-violet-accent);
+}
+
+.card__paragraph {
+    color: var(--slightly-transparent-white);
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5rem;
+}
+
+.div__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+.info__companies, .info__templates, .info__paragraph {
+    padding-bottom: 20px;
+}
+
+.companies__title, .templates__title, .queries__title {
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 7px;
+}
+
+.companies__paragraph, .templates__paragraph, .queries__paragraph {
+    color: var(--slightly-transparent-info);
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+}
+

@@ -1,1 +1,3 @@
-# Challenges-Frontend-Mentor
+# Challengues Frontend Mentor
+Challenges performed in Frontend Mentor
+:)

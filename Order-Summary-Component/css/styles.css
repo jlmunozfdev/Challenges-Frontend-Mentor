@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+
+--pale-blue: hsl(225, 100%, 94%);
+--bright-blue: hsl(245, 75%, 52%);
+--very-pale-blue: hsl(225, 100%, 98%);
+--desaturated-blue: hsl(224, 23%, 55%);
+--dark-blue: hsl(223, 47%, 23%);
+--violet-dark: hsl(300, 89%, 22%);
+--typography: 'Red Hat Display', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/img/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--pale-blue);
+    font-family: var(--typography);
+    font-style: 16px;
+    min-height: 100vh;
+}
+
+.main__container {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    /* width: 320px; */
+    width: 360px;
+}
+
+.section__card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+figure {
+    
+    background-image: url(../assets/img/illustration-hero.svg);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5.5rem;
+    width: 100%;
+}
+
+.div__card {
+    margin: 2rem;
+}
+
+.card__title {
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.card__paragraph {
+    color: var(--desaturated-blue);
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding: 0 1.5rem;
+}
+
+.card__plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--very-pale-blue);
+    margin: 1rem 0.5rem 1.5rem 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+.anual__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    background-image: url(../assets/img/icon-music.svg);
+    background-size: cover;
+    padding: 1.2rem;
+}
+
+.anual__plan {
+    margin: 0 1rem;
+    text-align: left;
+}
+
+
+.plan__title {
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+
+.plan__paragraph {
+    color: var(--desaturated-blue);
+    font-weight: 500;
+    font-size: 0.825rem;
+}
+
+.link__change {
+    color: #8400f4;
+    font-weight: 900;
+    font-size: 0.7rem;
+    
+}
+
+.link__change:hover {
+    text-decoration: none;
+}
+
+.card_buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn__pay {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    
+    background-color: var(--bright-blue);
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 20px 15px -2px rgba(156, 156, 239, 0.4);
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 0.9rem;
+}
+
+.btn__pay:hover{
+    background-color: #8400f4;
+    cursor: pointer;
+}
+
+.link__cancel {
+    color: var(--desaturated-blue);
+    font-weight: 900;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+
+.link__cancel:hover {
+    color: var(--dark-blue);
+}
+
+.footer_container {
+   margin: 1rem 0 0 0;
+}
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+}
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 500px) {
+
+    body {
+        background-image: url(../assets/img/pattern-background-mobile.svg);
+    }
+
+    .main__container {
+        
+        width: 330px;
+    }
+
+    figure {
+        padding: 5rem;
+    }
+
+    .div__card {
+        padding: 1rem 0;
+        margin: 0;
+    }
+
+    .card__title {
+        margin: 1rem;
+    }
+
+    .card__paragraph {
+        font-size: 1rem;
+        margin: 1rem 1rem 1.5rem 1rem;
+        padding: 0 1rem;
+    }
+
+    .card__plan {
+    
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    img {
+        padding: 1.5rem;
+    }
+
+    .anual__plan {
+        margin: 0 1.2rem;
+    }
+
+    .plan__title {
+        font-size: 0.9rem;
+    }
+
+    .plan__paragraph {
+        font-size: 0.9rem;
+    }
+
+    .link__change {
+        font-size: 0.8rem;
+    }
+
+    .btn__pay {
+        font-size: 0.9rem;
+        margin: 1.5rem;
+        padding: 1rem;
+    }
+
+    .link__cancel {
+        font-size: 0.9rem;
+        margin: 0.5rem 0 1rem 0;
+    }
+}
+
+

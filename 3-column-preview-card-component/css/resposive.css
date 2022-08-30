@@ -1,0 +1,539 @@
+@media only screen and (min-width: 480px) {
+    main{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    main{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    main {
+        width: 50%;
+        
+    }
+
+    .section__container {
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+    }
+
+    .div__sedans {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .sedans__image {
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .sedans__image>img {
+        width: 50px;
+        height: 25px;
+    }
+
+    .sedans__title {
+        font-size: 1.8rem;
+        padding-top: 23px;
+        padding-left: 20px;
+    }
+
+    .sedans__paragraph {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sedans__btn {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-bottom: 0;
+    }
+
+    .btn__sedans {
+        font-size: 0.6rem;
+        padding: 0.6rem;
+        width: 100px;
+    }
+
+    /* Div Suvs */
+    .suvs__image {
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .suvs__image>img {
+        width: 50px;
+        height: 25px;
+    }
+
+    .suvs__title {
+        font-size: 1.8rem;
+        padding-top: 23px;
+        padding-left: 20px;
+    }
+
+    .suvs__paragraph {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .suvs__btn {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-bottom: 0;
+    }
+
+    .btn__suvs {
+        font-size: 0.6rem;
+        padding: 0.6rem;
+        width: 100px;
+    }
+    /* Div Luxury */
+    .div__luxury {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .luxury__image {
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .luxury__image>img {
+        width: 50px;
+        height: 25px;
+    }
+
+    .luxury__title {
+        font-size: 1.8rem;
+        padding-top: 23px;
+        padding-left: 20px;
+    }
+
+    .luxury__paragraph {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .luxury__btn {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-bottom: 0;
+    }
+
+    .btn__luxury {
+        font-size: 0.6rem;
+        padding: 0.6rem;
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    main {
+        width: 50%;
+        
+    }
+
+    .section__container {
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+    }
+
+    .div__sedans {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .sedans__image {
+        padding-top: 50px;
+        padding-left: 36px;
+    }
+
+    .sedans__image>img {
+        width: 50px;
+        height: 25px;
+    }
+
+    .sedans__title {
+        font-size: 1.8rem;
+        padding-top: 23px;
+        padding-left: 36px;
+    }
+
+    .sedans__paragraph {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding-top: 20px;
+        padding-left: 36px;
+        padding-right: 20px;
+    }
+
+    .sedans__btn {
+        padding-top: 50px;
+        padding-left: 36px;
+        padding-bottom: 0;
+    }
+
+    .btn__sedans {
+        font-size: 0.6rem;
+        padding: 0.6rem;
+        width: 100px;
+    }
+
+    /* Div Suvs */
+    .suvs__image {
+        padding-top: 50px;
+        padding-left: 36px;
+    }
+
+    .suvs__image>img {
+        width: 50px;
+        height: 25px;
+    }
+
+    .suvs__title {
+        font-size: 1.8rem;
+        padding-top: 23px;
+        padding-left: 36px;
+    }
+
+    .suvs__paragraph {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding-top: 20px;
+        padding-left: 36px;
+        padding-right: 20px;
+    }
+
+    .suvs__btn {
+        padding-top: 50px;
+        padding-left: 36px;
+        padding-bottom: 0;
+    }
+
+    .btn__suvs {
+        font-size: 0.6rem;
+        padding: 0.6rem;
+        width: 100px;
+    }
+    /* Div Luxury */
+    .div__luxury {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .luxury__image {
+        padding-top: 50px;
+        padding-left: 36px;
+    }
+
+    .luxury__image>img {
+        width: 50px;
+        height: 25px;
+    }
+
+    .luxury__title {
+        font-size: 1.8rem;
+        padding-top: 23px;
+        padding-left: 36px;
+    }
+
+    .luxury__paragraph {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding-top: 20px;
+        padding-left: 36px;
+        padding-right: 20px;
+    }
+
+    .luxury__btn {
+        padding-top: 50px;
+        padding-left: 36px;
+        padding-bottom: 0;
+    }
+
+    .btn__luxury {
+        font-size: 0.6rem;
+        padding: 0.6rem;
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    main {
+        width: 68%;
+        
+    }
+
+    .section__container {
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+    }
+
+    .div__sedans {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .sedans__image {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .sedans__image>img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .sedans__title {
+        font-size: 2.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    .sedans__paragraph {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 60px;
+    }
+
+    .sedans__btn {
+        padding-top: 90px;
+        padding-left: 50px;
+        padding-bottom: 0;
+    }
+
+    .btn__sedans {
+        font-size: 1rem;
+        padding: 1rem;
+        width: 150px;
+    }
+
+    /* Div Suvs */
+    .suvs__image {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .suvs__image>img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .suvs__title {
+        font-size: 2.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    .suvs__paragraph {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 60px;
+    }
+
+    .suvs__btn {
+        padding-top: 90px;
+        padding-left: 50px;
+        padding-bottom: 0;
+    }
+
+    .btn__suvs {
+        font-size: 1rem;
+        padding: 1rem;
+        width: 150px;
+    }
+    /* Div Luxury */
+    .div__luxury {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .luxury__image {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .luxury__image>img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .luxury__title {
+        font-size: 2.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    .luxury__paragraph {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .luxury__btn {
+        padding-top: 90px;
+        padding-left: 50px;
+        padding-bottom: 0;
+    }
+
+    .btn__luxury {
+        font-size: 1rem;
+        padding: 1rem;
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    main {
+        width: 64%;
+        
+    }
+
+    .section__container {
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+    }
+
+    .div__sedans {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .sedans__image {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .sedans__image>img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .sedans__title {
+        font-size: 2.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    .sedans__paragraph {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 60px;
+    }
+
+    .sedans__btn {
+        padding-top: 90px;
+        padding-left: 50px;
+        padding-bottom: 0;
+    }
+
+    .btn__sedans {
+        font-size: 1rem;
+        padding: 1rem;
+        width: 150px;
+    }
+
+    /* Div Suvs */
+    .suvs__image {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .suvs__image>img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .suvs__title {
+        font-size: 2.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    .suvs__paragraph {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 60px;
+    }
+
+    .suvs__btn {
+        padding-top: 90px;
+        padding-left: 50px;
+        padding-bottom: 0;
+    }
+
+    .btn__suvs {
+        font-size: 1rem;
+        padding: 1rem;
+        width: 150px;
+    }
+    /* Div Luxury */
+    .div__luxury {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .luxury__image {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .luxury__image>img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .luxury__title {
+        font-size: 2.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    .luxury__paragraph {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .luxury__btn {
+        padding-top: 90px;
+        padding-left: 50px;
+        padding-bottom: 0;
+    }
+
+    .btn__luxury {
+        font-size: 1rem;
+        padding: 1rem;
+        width: 150px;
+    }
+}

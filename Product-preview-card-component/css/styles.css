@@ -1,0 +1,203 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --tipografia-parrafos: 'Montserrat', sans-serif;
+    --tipografia-title: 'Fraunces', serif;   
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+   
+}
+
+body {
+   background-color: var(--cream);
+   font-size: 14px;
+   max-width: 1440px;
+}
+
+.main__container {
+
+    display: flex;
+    justify-content: center;
+    margin: 8% auto;
+    
+}
+
+.section__card {
+    display: flex;
+    flex-direction: row;
+    width: 520px;
+    height: 400px;
+    
+}
+
+figure {
+    background-image: url("../assets/img/image-product-desktop.jpg");
+    width: 100%;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+}
+
+.div__card {
+    background-color: var(--white);
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card__subtitle {
+    color: var(--dark-grayish-blue);
+    font-family: var(--tipografia-parrafos);
+    font-weight: 500;
+    letter-spacing: 0.25rem;
+    padding: 1.5rem 1.5rem 0 1.5rem; 
+}
+
+.card__title {
+    color: var(--very-dark-blue);
+    font-family: var(--tipografia-title);
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2rem;
+    padding: 1rem 1.5rem;
+    
+}
+
+.card__paragraph {
+    color: var(--dark-grayish-blue);
+    font-family: var(--tipografia-parrafos);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 0.3rem 1.5rem;
+}
+
+.card__price {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.card__price--green {
+    color: var(--dark-cyan);
+    font-family: var(--tipografia-title);
+    font-size: 1.8rem;
+    padding-right: 1rem;
+}
+
+.card__price--gray {
+    color: var(--dark-grayish-blue);
+    font-family: var(--tipografia-parrafos);
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-decoration: line-through;
+}
+
+.btn__cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    font-family: var(--tipografia-parrafos);
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    width: 220px;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.btn__cart img {
+    margin: 0 0.6rem;
+}
+
+.btn__cart:hover {
+    background-color: #144d38;
+}
+
+@media (max-width:530px) {
+
+    
+
+    .main__container {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;
+        width: 100vh;
+        height: 100vh;
+    }
+
+    .section__card {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-direction: column;
+        margin: 0 4rem;
+        width: 340px;
+        
+    }
+
+    figure {
+        background-image: url("../assets/img/image-product-mobile.jpg");
+        
+       
+        padding: 6.5rem;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        overflow: hidden;
+    }
+
+    .div__card {
+        
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .card__subtitle {
+        font-size: 0.7rem;
+    }
+
+    
+    
+    .card__paragraph {
+        
+        line-height: 1.5rem;
+        padding: 0.3rem 3rem 0.3rem 1.5rem;
+    }
+
+    .card__price--green {
+       
+        font-size: 2rem;
+        padding-right: 1.5rem;
+    }
+
+    .btn__cart {
+        
+        
+        width: 90%;
+        margin-bottom: 2rem;
+        padding: 0.8rem;
+    }
+}

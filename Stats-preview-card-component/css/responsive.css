@@ -1,0 +1,368 @@
+
+@media only screen and (min-width: 480px) {
+
+    main {
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+   
+    .section__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div__card__image {
+        background-image: url(../assets/img/image-header-mobile.jpg);
+        height: 380px;
+       
+    }
+    picture {
+        height: 380px;
+    }
+
+    .div__card__content {
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+   .card__title {
+    text-align: center;
+   }
+
+   .card__paragraph {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+
+   .div__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 0;
+   }
+   
+   .info__companies{
+    padding:10px 0 0 0;
+    }
+
+    .info__templates {
+    padding: 10px 0 0 0;
+    }
+
+    .info__queries {
+    padding: 10px 0 0 0;
+    }
+
+    .companies__title, .templates__title, .queries__title {
+    text-align: center;
+    padding: 0;
+    }
+
+    .companies__paragraph, .templates__paragraph, .queries__paragraph {
+    text-align: center;
+    padding: 0;
+    }
+   
+   
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    main {
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+   
+    .section__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div__card__image {
+        background-image: url(../assets/img/image-header-mobile.jpg);
+        height: 500px;
+       
+    }
+    picture {
+        height: 500px;
+    }
+
+    .div__card__content {
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+   .card__title {
+    text-align: center;
+   }
+
+   .card__paragraph {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+
+   .div__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 0;
+   }
+   
+   .info__companies{
+    padding:10px 0 0 0;
+    }
+
+    .info__templates {
+    padding: 10px 0 0 0;
+    }
+
+    .info__queries {
+    padding: 10px 0 0 0;
+    }
+
+    .companies__title, .templates__title, .queries__title {
+    text-align: center;
+    padding: 0;
+    }
+
+    .companies__paragraph, .templates__paragraph, .queries__paragraph {
+    text-align: center;
+    padding: 0;
+    }
+   
+   
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    main {
+        width: 70%;
+    }
+   
+    .section__container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 450px;
+        grid-template-areas: 
+        "contenido imagen";
+    }
+
+    .div__card__image {
+        grid-area: imagen;
+        background-image: url(../assets/img/image-header-desktop.jpg);
+        height: 100%;
+       
+    }
+
+    picture {
+        height: 100%;
+    }
+
+    .div__card__content {
+        grid-area: contenido;
+        height: 100%;
+        display: flex;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+
+    .card__title {
+        text-align: left;
+        font-size: 2rem;
+        
+    }
+    
+    .card__paragraph {
+     
+        text-align: left;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-left: 20px;
+
+    }
+
+    .div__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 20px;
+        
+       }
+       .info__companies, .info__templates, .info__paragraph {
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+       .companies__title, .templates__title, .queries__title {
+        text-align: left;
+        font-size: 1.5rem;
+        
+    }
+
+    .companies__paragraph, .templates__paragraph, .queries__paragraph {
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+
+}
+
+@media only screen and (min-width: 1220px) {
+
+    main {
+        width: 77%;
+    }
+   
+    .section__container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 450px;
+        grid-template-areas: 
+        "contenido imagen";
+    }
+
+    .div__card__image {
+        grid-area: imagen;
+        background-image: url(../assets/img/image-header-desktop.jpg);
+        height: 100%;
+       
+    }
+
+    picture {
+        height: 100%;
+    }
+
+    .div__card__content {
+        grid-area: contenido;
+        height: 100%;
+        display: flex;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .card__title {
+        text-align: left;
+        font-size: 2.3rem;
+        
+    }
+    
+    .card__paragraph {
+     
+        text-align: left;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-left: 20px;
+
+    }
+
+    .div__info {
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+        padding-left: 10px;
+        
+       }
+       .info__companies, .info__templates, .info__paragraph {
+        padding-bottom: 0;
+        padding-right: 55px;
+    }
+       .companies__title, .templates__title, .queries__title {
+        text-align: left;
+        font-size: 1.5rem;
+        
+    }
+
+    .companies__paragraph, .templates__paragraph, .queries__paragraph {
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+
+}
+
+/* Huge */
+@media only screen and (min-width: 1440px) {
+
+    main {
+        width: 77%;
+    }
+   
+    .section__container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 450px;
+        grid-template-areas: 
+        "contenido imagen";
+    }
+
+    .div__card__image {
+        grid-area: imagen;
+        background-image: url(../assets/img/image-header-desktop.jpg);
+        height: 100%;
+       
+    }
+
+    picture {
+        height: 100%;
+    }
+
+    .div__card__content {
+        grid-area: contenido;
+        height: 100%;
+        display: flex;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .card__title {
+        text-align: left;
+        font-size: 2.3rem;
+        
+    }
+    
+    .card__paragraph {
+     
+        text-align: left;
+        padding-top: 10px;
+        padding-right: 80px;
+        padding-left: 20px;
+
+    }
+
+    .div__info {
+        display: flex;
+        flex-direction: row;
+        padding-top: 60px;
+        padding-left: 10px;
+        
+       }
+       .info__companies, .info__templates, .info__paragraph {
+        padding-bottom: 0;
+        padding-right: 55px;
+    }
+       .companies__title, .templates__title, .queries__title {
+        text-align: left;
+        font-size: 1.5rem;
+        
+    }
+
+    .companies__paragraph, .templates__paragraph, .queries__paragraph {
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+
+}
