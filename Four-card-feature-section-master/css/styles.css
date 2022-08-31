@@ -183,7 +183,7 @@ figure {
     background-position: right;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 768px) {
 
     main {
        width: 85%;
