@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    --typography: 'Barlow Semi Condensed', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--light-grayish-blue);
+    font-family: var(--typography);
+    font-size: 13px;
+}
+
+main {
+    width: 88%;
+    margin: 4rem auto;
+}
+
+.div__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+/* Card configuration for all cards */
+.card {
+    border-radius: 8px;
+    padding: 30px 0;
+}
+
+/* Section One */
+.card--one {
+    background-color: var(--moderate-violet);
+    background-image: url(../assets/img/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 210px top;
+}
+
+/* div__header configuration for all cards */
+.div__header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+/* img configuration for all cards */
+img {
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;  
+}
+
+/* header__title configuration for all cards */
+.header__title {
+   font-size: 0.8rem;
+   font-weight: 600;
+}
+
+.title--one {
+    color: var(--light-grayish-blue);
+}
+
+/* header__subtitle configuration for all cards */
+.header__subtitle {
+    font-size: 0.7rem;
+    font-weight: 500;
+   
+}
+
+.subtitle--one {
+    color: var(--light-grayish-blue);
+    opacity: 0.6;
+}
+
+.one__title {
+    color: var(--light-grayish-blue);
+    padding: 20px 45px 20px 30px;
+}
+
+.one__cite {
+    color: var(--light-gray);
+    opacity: 0.8;
+    font-weight: 500;
+    padding: 0 50px 0 30px;
+    
+}
+
+/* Section Two */
+
+.card--two {
+    background-color: var(--very-dark-grayish-blue);
+}
+
+.title--two {
+    color: var(--light-grayish-blue);
+}
+
+.subtitle--two {
+    color: var(--light-grayish-blue);
+    opacity: 0.6;
+}
+
+.two__title {
+    color: var(--light-grayish-blue);
+    padding: 20px 45px 20px 30px;
+}
+
+.two__cite {
+    color: var(--light-gray);
+    opacity: 0.8;
+    font-weight: 500;
+    padding: 0 35px 0 30px;
+}
+
+/* Section Three */
+
+.card--three {
+    background-color: var(--white);
+}
+
+.title--three {
+    color: var(--very-dark-blackish-blue);
+    opacity: 0.7;
+}
+
+.subtitle--three {
+    color: var(--very-dark-blackish-blue);
+    opacity: 0.5;
+}
+
+.three__title {
+    color: var(--very-dark-grayish-blue);
+    padding: 20px 45px 20px 30px;
+}
+
+.three__cite {
+    color: var(--very-dark-grayish-blue);
+    opacity: 0.8;
+    font-weight: 500;
+    padding: 0 35px 0 30px;
+}
+
+/* Section Four */
+
+.card--four {
+    background-color: var(--very-dark-blackish-blue);
+}
+
+.title--four {
+    color: var(--white);
+    opacity: 0.9;
+}
+
+.subtitle--four {
+    color: var(--white);
+    opacity: 0.4;
+}
+
+.four__title {
+    color: var(--white);
+    padding: 20px 45px 20px 30px;
+}
+
+.four__cite {
+    color: var(--light-gray);
+    opacity: 0.8;
+    font-weight: 500;
+    padding: 0 38px 0 30px;
+}
+
+/* Section Five */
+
+.card--five {
+    background-color: var(--white);
+}
+
+.title--five {
+    color: var(--very-dark-grayish-blue);
+}
+
+.subtitle--five {
+    color: var(--very-dark-grayish-blue);
+    opacity: 0.5;
+}
+
+.five__title {
+    color: var(--very-dark-grayish-blue);
+    padding: 20px 45px 20px 30px;
+}
+
+.five__cite {
+    color: var(--very-dark-grayish-blue);
+    opacity: 0.8;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 0 43px 0 30px;
+}
+
+
