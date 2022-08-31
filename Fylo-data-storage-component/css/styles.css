@@ -186,7 +186,7 @@ span {
         background-image: url(../assets/img/bg-desktop.png);
         background-color: var(--very-dark-blue);
         background-size: contain;
-        background-position: 0px 300px;
+        background-position: right 0 bottom 0;
         
     }
 
