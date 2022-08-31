@@ -213,4 +213,38 @@ img {
     padding: 0 43px 0 30px;
 }
 
+/* Respoonsive 768px */
+@media (min-width: 768px) {
+
+    main {
+        width: 77%;
+        margin: 10rem auto;
+    }
+    .div__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+        }
+        
+        .card--one { 
+            grid-area: 1 / 1 / 2 / 3; 
+        }
+
+        .card--two { 
+            grid-area: 1 / 3 / 2 / 4; 
+        }
+        .card--three { 
+            grid-area: 2 / 1 / 3 / 2; 
+        }
+
+        .card--four { 
+            grid-area: 2 / 2 / 3 / 4; 
+        }
+
+        .card--five { 
+            grid-area: 1 / 4 / 3 / 5; 
+        }
+}
 
