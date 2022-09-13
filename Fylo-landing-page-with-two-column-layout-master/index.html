@@ -36,11 +36,11 @@
                 <p class="header--paragraph">Fylo stores your most important files in one secure location. 
                     Access them wherever you need, share and collaborate with friends, 
                     family, and co-workers.</p>
-                <div class="header__btn">
-                    <input type="email" name="email" id="email" placeholder="Enter your email." class="input--header">
+                <form class="header__btn" action="">
+                    <input type="email" name="email" id="email" placeholder="Enter your email." class="input--header" required>
 
                     <button type="submit" class="btn--header">Get Started</button>
-                </div>
+                </form>
             </article>
         </div>
     </header>
@@ -48,50 +48,56 @@
     <section class="section__content">
 
         <figure>
-            <img src="./assets/img/bg-curve-mobile.svg" alt="" class="bg--curve">
-        </figure>
+            
+            <img src="./assets/img/bg-curve-desktop.svg" alt="" class="bg__curve--dis">
 
-        <figure class="figure__content">
-            <img src="./assets/img/illustration-2.svg" alt="illustration-2" class="content--img">
+            <img src="./assets/img/bg-curve-mobile.svg" alt="" class="bg__curve--mob">
         </figure>
 
         <article class="content__header">
-            <h3 class="content--title">
-                Stay productive, wherever you are
-            </h3>
-            <p class="content--paragraph">
-                Never let location be an issue when accessing your files. Fylo has you 
-                covered for all of your file storage needs.
-            </p>
-            <p class="content--paragraph">
-                Securely share files and folders with friends, family and colleagues for 
-    live collaboration. No email attachments required!
-            </p>
 
-            <div class="div__arrow">
-                <a href="#" class="link--arrow">
-                    See how Fylo works
-                    <img src="./assets/img/icon-arrow.svg" alt="icon-arrow" class="icon--arrow">
-                </a>
-                <hr>
-            </div>
-           
-            <div class="content__card">
-                <img src="./assets/img/icon-quotes.svg" alt="icon-quotes" class="img--quotes">
-                <p class="card--paragraph">Fylo has improved our team productivity by an order of magnitude. Since 
-                    making the switch our team has become a well-oiled collaboration machine.</p>
-                
-                <div class="card__testimonial">
-                
-                    <img src="./assets/img/avatar-testimonial.jpg" alt="avatar-testimonial" class="img--avatar">
-                   
-                    <div class="testimonial--name">
-                        <h3 class="testimonial--title">
-                            Kyle Burton
-                        </h3>
-                        <p class="testimonial--paragraph">
-                            Founder & CEO, Huddle
-                        </p>
+            <figure class="figure__content">
+                <img src="./assets/img/illustration-2.svg" alt="illustration-2" class="content--img">
+            </figure>
+
+            <div class="header__two">
+                <h3 class="content--title">
+                    Stay productive, wherever you are
+                </h3>
+                <p class="content--paragraph">
+                    Never let location be an issue when accessing your files. Fylo has you 
+                    covered for all of your file storage needs.
+                </p>
+                <p class="content--paragraph">
+                    Securely share files and folders with friends, family and colleagues for 
+        live collaboration. No email attachments required!
+                </p>
+    
+                <div class="div__arrow">
+                    <a href="#" class="link--arrow">
+                        See how Fylo works
+                        <img src="./assets/img/icon-arrow.svg" alt="icon-arrow" class="icon--arrow">
+                    </a>
+                    <hr>
+                </div>
+               
+                <div class="content__card">
+                    <img src="./assets/img/icon-quotes.svg" alt="icon-quotes" class="img--quotes">
+                    <p class="card--paragraph">Fylo has improved our team productivity by an order of magnitude. Since 
+                        making the switch our team has become a well-oiled collaboration machine.</p>
+                    
+                    <div class="card__testimonial">
+                    
+                        <img src="./assets/img/avatar-testimonial.jpg" alt="avatar-testimonial" class="img--avatar">
+                       
+                        <div class="testimonial--name">
+                            <h3 class="testimonial--title">
+                                Kyle Burton
+                            </h3>
+                            <p class="testimonial--paragraph">
+                                Founder & CEO, Huddle
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -109,10 +115,10 @@
             </p>
         </article>
 
-        <article class="access--btn">
-            <input class="input--access" type="email" name="email-2" id="email-2" placeholder="email@example.com">
+        <form class="access--btn" action="">
+            <input class="input--access" type="email" name="email" id="email" placeholder="email@example.com" required>
             <button class="btn--access" type="submit">Get Started For Free</button>
-        </article>
+        </form>
 
     </section>
 
