@@ -32,25 +32,31 @@
         </section>
 
         <section class="section__followers">
-            <article class="article--picture">
+            <article class="article__picture">
                 <figure>
-                    <img src="./assets/img/screen-mockups.svg" alt="screen-mockups">
+                    <img src="./assets/img/screen-mockups.svg" alt="screen-mockups" class="img--mockups">
                 </figure>
             </article>
+
             <article class="article__communities">
-                <img src="./assets/img/icon-communities.svg" alt="communities" class="followers img--comunities">
+                <figure class="figure--communities">
+                    <img src="./assets/img/icon-communities.svg" alt="communities" class="followers img--comunities">
+                </figure>
                 <h2 class="communities--title">1.4k+</h2>
                 <p class="communities--paragraph">Communities Formed</p>
             </article>
 
             <article class="article__messages">
-                <img src="./assets/img/icon-messages.svg" alt="messages" class="followers img--messages">
-                <h2 class="communities--title">2.7m+</h2>
-                <p class="communities--paragraph">Messages Sent</p>
+                <figure class="figure--communities">
+                    <img src="./assets/img/icon-messages.svg" alt="messages" class="followers img--messages">
+                </figure>
+                <h2 class="communities--title title--messages">2.7m+</h2>
+                <p class="communities--paragraph paragraph--messages">Messages Sent</p>
             </article>
         </section>
 
         <section class="section__cards">
+
             <article class="article__grow">
                 <figure>
                     <img src="./assets/img/illustration-grow-together.svg" alt="illustration-grow-together" class="cards img--grow">
@@ -95,7 +101,7 @@
 
         <section class="section__footer">
 
-            <article class="article__header">
+            <article class="header__footer">
                 <figure>
                     <img src="./assets/img/logo.svg" alt="logo footer" class="img--footer">
                 </figure>
@@ -104,22 +110,33 @@
                     vestibulum a, ultrices quis sem.</p>
 
                 <div class="locations">
-                    <span><img src="./assets/img/icon-phone.svg" alt="phone">Phone: +1-543-123-4567</span>
-                    <span><img src="./assets/img/icon-email.svg" alt="email">example@huddle.com</span>
+                    <span><img src="./assets/img/icon-phone.svg" alt="phone" class="img--locations">Phone: +1-543-123-4567</span>
+                    <span><img src="./assets/img/icon-email.svg" alt="email" class="img--locations">example@huddle.com</span>
                 </div>
+
+                <div class="footer__icons">
+                    <ul class="icons--social">
+                        <li class="icons"><i class="fa-brands fa-facebook"></i></li>
+                        <li class="icons"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="icons"><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+                
             </article>
 
             <article class="article__newsletter">
                 <h2 class="newsletter--title">Newsletter</h2>
                 <p class="newsletter--paragraph">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
                     send you spam or pass on your email address.</p>
-                <form action="">
+                <form action="" class="form">
                     <input type="text" class="input--newsletter">
                     <button type="submit" class="btn--newsletter">Subscribe</button>
                 </form>
             </article>
+
         </section>
 
     </main>
+    <script src="https://kit.fontawesome.com/bc48b26896.js" crossorigin="anonymous"></script>
 </body>
 </html>
