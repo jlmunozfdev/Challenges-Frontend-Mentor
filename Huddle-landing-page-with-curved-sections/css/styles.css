@@ -55,6 +55,12 @@ body {
     font-family: var(--typography-open);
     width: 80px;
     height: 25px;
+    cursor: pointer;
+}
+
+.btn--header:hover {
+    background-color: var(--light-pink);
+    color: var(--white);
 }
 
 .article__content {
@@ -94,6 +100,12 @@ body {
     font-weight: 700;
     width: 190px;
     height: 35px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: var(--light-pink);
+    color: var(--white);
 }
 
 /* SECTION FOLLOWERS */
@@ -103,7 +115,6 @@ body {
     flex-direction: column;
     justify-content: center;
     padding-top: 6rem;
-    
     gap: 80px;
 }
 
@@ -115,6 +126,12 @@ body {
 
 .img--mockups {
     width: 100%;
+}
+
+.section--follow {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
 }
 
 .article__communities {
@@ -164,9 +181,6 @@ body {
 
 
 /* SECTION CARDS */
-
-
-
 
 .section__cards {
     display: flex;
@@ -246,7 +260,6 @@ body {
 
 /* SECTIUON FOOTER */
 .section__footer {
-   
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -255,7 +268,6 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
-   
 }
 
 .article__newsletter {
@@ -304,6 +316,12 @@ body {
     height: 40px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn--newsletter:hover {
+    background-color: var(--light-pink);
+    color: var(--white);
 }
 
 .header__footer {
@@ -359,11 +377,162 @@ span {
 
 .icons {
     font-size: 30px;
+    cursor: pointer;
 }
 
+.icons:hover {
+    color: var(--light-pink);
+}
 
+@media screen and (min-width: 1024px){
+    
+    /* SECTION HEADER */
+    .section__header {
+        padding-top: 3rem;
+    }
+    
+    .article__header {
+        justify-content: space-between;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 
+    .img--header {
+        width: 60%;
+    }
 
+    .btn--header {
+        width: 100px;
+        height: 30px;
+    }
+
+    .content--title {
+        font-size: 2rem;
+    }
+
+    .content--paragraph {
+        padding-left: 16rem;
+        padding-right: 16rem;
+    }
+
+    .buttons {
+        border-radius: 50px;
+        font-size: 0.9rem;
+        width: 250px;
+        height: 50px;
+    }
+
+    /* SECTION FOLLOWERS */
+
+    .section--follow {
+        flex-direction: row;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .article__picture {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-bottom: 2rem;
+    }
+
+    .article__communities {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .figure--communities {
+        position: absolute;
+        top: -25px;
+        left: 180px; 
+        right: 0;
+     }
+
+     .messages--communi {
+        position: absolute;
+        top: -25px;
+        left: 0; 
+        right: 0;
+     }
+
+     .followers {
+        width: 12%;
+    }
+
+    .img--messages {
+        width: 50px;
+    }
+
+    /* SECTION CARDS */
+
+    .title {
+        text-align: left;
+    }
+
+    .paragraph {
+        text-align: left;
+    }
+
+   .article__grow {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        gap: 40px;
+    }
+
+   .article__flowing {
+        display: flex;
+        flex-direction: row;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        gap: 40px;
+    }
+
+    .article__users {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        gap: 40px;
+        padding-bottom: 2rem;
+    }
+
+    /* SECTION FOOTER */
+
+    .section__footer {
+        flex-direction: row;
+        padding-top: 8rem;
+    }
+
+    .header__footer {
+        padding-left: 6rem;
+        padding-right: 0;
+    }
+
+    .header--title {
+        font-weight: 400;
+    }
+
+    .article__newsletter {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .newsletter--paragraph {
+        padding-right: 4rem;
+        font-weight: 400;
+    }
+
+    .form {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .input--newsletter {
+        width: 400px;
+    }
+}
 
 
 
