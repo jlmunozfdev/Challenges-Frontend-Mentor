@@ -14,8 +14,8 @@
 --Rose_800: hsl(332, 51%, 32%);
 --Rose_50: hsl(330, 100%, 98%);
 
---font--title: "Outfit", sans-serif;
---font--paragrapgh:  "Young Serif", serif;
+--font--title:  "Young Serif", serif;
+--font--paragraph: "Outfit", sans-serif;
 }
 
 * {
@@ -33,5 +33,130 @@ body {
     min-height: 100vh;
 }
 
+.header-text {
+    padding: 1rem 4rem;
+}
+
+.header-text > .text-title {
+    font-family: var(--font--title);
+    font-size: 2.5rem;
+}
+
+.header-text > .text-paragraph {
+    font-family: var(--font--paragraph);
+}
+
+.header-preparation {
+    background: var(--Rose_50);
+    margin: 1rem 4rem;
+    border-radius: 12px;
+}
+
+.preparation-title {
+    font-family: var(--font--paragraph);
+    color: var(--Rose_800);
+}
+
+.preparation-list {
+    font-family: var(--font--paragraph);
+}
+
+.preparation-list > li {
+    padding: 0.5rem 1rem;
+}
+
+.preparation-list > li > span {
+    font-weight: bold;
+}
+
+.header-ingredients {
+    padding: 1rem 4rem;
+}
+
+.ingredients-title {
+    font-family: var(--font--title);
+    font-size: 1.5rem;
+    color: var(--Brown_800);
+}
+
+.ingredients-list {
+    font-family: var(--font--paragraph);
+}
+
+.ingredients-list > li{
+    padding: 0.5rem 1rem;
+}
+
+.section-line {
+    padding-inline: 4rem;
+}
+
+.section-line > hr {
+    color: var(--Brown_800);
+}
+
+.section-instructions {
+    padding: 1rem 4rem;
+}
+
+.instructions-title {
+    font-family: var(--font--title);
+    font-size: 1.5rem;
+    color: var(--Brown_800);
+}
+
+.instructions-list {
+    font-family: var(--font--paragraph);
+    color: var(--Stone_600);
+}
+
+.instructions-list > li {
+    padding-top: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 1rem;
+}
+
+.instructions-list > li > span {
+    color: var(--Stone_900);
+    font-weight: bold;
+}
+
+.section-nutrition {
+    padding: 1rem 4.2rem;
+}
+
+.nutrition-title {
+    font-family: var(--font--title);
+    font-size: 1.5rem;
+    color: var(--Brown_800);
+}
+
+.nutrition-paragraph {
+    font-family: var(--font--paragraph);
+}
+
+.nutrition-table {
+    font-family: var(--font--paragraph);
+}
+
+.nutrition-table > thead > tr > td, .nutrition-table > tbody > tr > td  {
+    color: var(--Stone_900);
+    padding-left: 2rem;
+}
+
+.nutrition-table > thead > tr > th, .nutrition-table > tbody > tr > th  {
+    color: var(--Brown_800);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: var(--Rose_800);
+    gap: 5px;
+    color: white;
+}
 
 
