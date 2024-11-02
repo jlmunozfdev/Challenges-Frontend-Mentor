@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+/* Variables */
+:root {
+--White: hsl(0, 0%, 100%);
+--Stone_100: hsl(30, 54%, 90%);
+--Stone_150: hsl(30, 18%, 87%);
+--Stone_600: hsl(30, 10%, 34%);
+--Stone_900: hsl(24, 5%, 18%);
+
+--Brown_800: hsl(14, 45%, 36%);
+
+--Rose_800: hsl(332, 51%, 32%);
+--Rose_50: hsl(330, 100%, 98%);
+
+--font--title: "Outfit", sans-serif;
+--font--paragrapgh:  "Young Serif", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background: var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
