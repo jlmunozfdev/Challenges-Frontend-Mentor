@@ -28,6 +28,7 @@
 body {
     background: var(--White);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -114,11 +115,17 @@ body {
     padding-top: 0.5rem;
     padding-left: 0.8rem;
     padding-right: 1rem;
+    color: var(--Brown_800);
+    font-weight: bold;
 }
 
-.instructions-list > li > span {
-    color: var(--Stone_900);
+.list-bold{
     font-weight: bold;
+}
+
+li > span {
+    color: var(--Stone_900);
+    font-weight: normal;
 }
 
 .section-nutrition {
@@ -157,6 +164,132 @@ footer {
     background: var(--Rose_800);
     gap: 5px;
     color: white;
+    width: 100%;
 }
 
+footer > a {
+    font-family: var(--font--paragraph);
+    text-decoration: none;
+    color: chartreuse;
+    font-weight: 400;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        background: var(--Stone_100);
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5rem;
+        background: var(--White);
+        padding: 30px;
+        width: 550px;
+        border-radius: 15px;
+    }
+
+    .figure-img {
+        width: 500px;
+        border-radius: 10px;
+    }
+
+    .header-text {
+        padding: 0;
+    }
+
+    .header-text > .text-title {
+        font-family: var(--font--title);
+        font-size: 2rem;
+    }
+
+    .header-text > .text-paragraph {
+        font-size: 0.75rem;
+    }
+
+    .header-preparation {
+        background: var(--Rose_50);
+        margin-block: 2rem;
+        margin-inline: 0;
+        padding: 0;
+    }
+    
+    .preparation-title {
+        font-family: var(--font--paragraph);
+        color: var(--Rose_800);
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+       
+    .preparation-list > li {
+        font-size: 0.7rem;
+    }
+    
+    .preparation-list > li > span {
+        font-size: 0.9rem;
+    }
+    
+    .header-ingredients {
+        padding: 0;
+    }
+    
+    .ingredients-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .ingredients-list > li{
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    /* Section Instructions */
+    .section-instructions {
+        padding: 0;
+    }
+    
+    .instructions-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+
+    .instructions-list > li {
+        font-size: 0.75rem;
+    }
+    
+    .list-bold{
+        font-size: 0.75rem;
+    }
+    
+    li > span {
+        font-size: 0.70rem;
+    }
+
+    /* Section Nutrition */
+    .section-nutrition {
+        padding: 0;
+    }
+    
+    .nutrition-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .nutrition-paragraph {
+        font-size: 0.8rem;
+    }
+    
+    .nutrition-table > thead > tr > td, .nutrition-table > tbody > tr > td  {
+        font-size: 0.75rem;
+    }
+    
+    .nutrition-table > thead > tr > th, .nutrition-table > tbody > tr > th  {
+        font-size: 0.75rem;
+    }
+}
 
